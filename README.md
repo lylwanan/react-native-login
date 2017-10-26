@@ -16,7 +16,7 @@
 	$ gulp ts:build
 	
 （在开发环境下可以使用gulp watch来监听打包）
-  
+
 在android平台上运行：
 
 	$ react-native run-android
