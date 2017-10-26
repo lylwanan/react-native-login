@@ -10,7 +10,13 @@
 我们启动npm命令行，在项目的根目录使用如下命令安装模块。
 	
 	$ npm install --registry=https://registry.npm.taobao.org
-  
+	
+使用gulp编译ts文件：
+	
+	$ gulp ts:build
+	
+（在开发环境下可以使用gulp watch来监听打包）
+  
 在android平台上运行：
 
 	$ react-native run-android
